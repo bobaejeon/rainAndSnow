@@ -1,6 +1,6 @@
 # MagicMirror² Module: rainAndSnow
 Displays raining, drizzling, or snowing animations depends on the weather type.
-<img src="" width=40%>
+<img src="https://postfiles.pstatic.net/MjAyMDA2MjFfODMg/MDAxNTkyNjczNTQ1NTIx.wfFInbGKTyTHn-6ELdPao9GZO7IpDAkC47eQdjSQfZYg.gOV6vPerzFr-CDksIqmWIpg8yT73N3gaeAEZBCeXhUkg.PNG.bobaeiscool/SE-5bdf6c6e-628e-4a99-bb01-6127faeeb899.png?type=w773" width=40%>
 
 This module is based on <a href="https://openweathermap.org/guide">OpenWeatherMap API</a>.<br>Get an APIkey, write it with location information in config, then it's all done.
 
