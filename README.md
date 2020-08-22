@@ -1,6 +1,7 @@
 # MagicMirror² Module: rainAndSnow
 Displays raining, drizzling, or snowing animations depends on the weather type.
-<img src="https://postfiles.pstatic.net/MjAyMDA2MjFfODMg/MDAxNTkyNjczNTQ1NTIx.wfFInbGKTyTHn-6ELdPao9GZO7IpDAkC47eQdjSQfZYg.gOV6vPerzFr-CDksIqmWIpg8yT73N3gaeAEZBCeXhUkg.PNG.bobaeiscool/SE-5bdf6c6e-628e-4a99-bb01-6127faeeb899.png?type=w773" width=100%>
+<img src="https://postfiles.pstatic.net/MjAyMDA2MjFfODMg/MDAxNTkyNjczNTQ1NTIx.wfFInbGKTyTHn-6ELdPao9GZO7IpDAkC47eQdjSQfZYg.gOV6vPerzFr-CDksIqmWIpg8yT73N3gaeAEZBCeXhUkg.PNG.bobaeiscool/SE-5bdf6c6e-628e-4a99-bb01-6127faeeb899.png?type=w773" width=50%>
+<img src="https://postfiles.pstatic.net/MjAyMDA2MjFfMjA0/MDAxNTkyNjczNjIwMzAy.kGRGYrkgeojAy1j7kgJqE2KIoXvbRCM7zFxVHfoR9ncg.qs-YRsxXnaUKeCtV08skSBCxQRJT1z0Ql4Z7VuwPzxsg.PNG.bobaeiscool/SE-d0d32eac-9fd4-47f0-906b-7bfc9b51bf07.png?type=w773" width=50%>
 
 This module is based on <a href="https://openweathermap.org/guide">OpenWeatherMap API</a>.<br>Get an APIkey, write it with location information in config, then it's all done.
 
