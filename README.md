@@ -1,9 +1,9 @@
 # MagicMirror² Module: rainAndSnow
-Displays raining or snowing animations depends on the weather type.<br><br>
+Displays raining or snowing animations according to the weather type.<br><br>
 This module is based on <a href="https://openweathermap.org/guide">OpenWeatherMap API</a>. Get an APIkey, write it with location information in config, then it's all done.
 
-<img src="https://postfiles.pstatic.net/MjAyMDA2MjFfODMg/MDAxNTkyNjczNTQ1NTIx.wfFInbGKTyTHn-6ELdPao9GZO7IpDAkC47eQdjSQfZYg.gOV6vPerzFr-CDksIqmWIpg8yT73N3gaeAEZBCeXhUkg.PNG.bobaeiscool/SE-5bdf6c6e-628e-4a99-bb01-6127faeeb899.png?type=w773" width=60%>
-<img src="https://postfiles.pstatic.net/MjAyMDA2MjFfMjA0/MDAxNTkyNjczNjIwMzAy.kGRGYrkgeojAy1j7kgJqE2KIoXvbRCM7zFxVHfoR9ncg.qs-YRsxXnaUKeCtV08skSBCxQRJT1z0Ql4Z7VuwPzxsg.PNG.bobaeiscool/SE-d0d32eac-9fd4-47f0-906b-7bfc9b51bf07.png?type=w773" width=60%>
+<img src="https://postfiles.pstatic.net/MjAyMDA2MjFfODMg/MDAxNTkyNjczNTQ1NTIx.wfFInbGKTyTHn-6ELdPao9GZO7IpDAkC47eQdjSQfZYg.gOV6vPerzFr-CDksIqmWIpg8yT73N3gaeAEZBCeXhUkg.PNG.bobaeiscool/SE-5bdf6c6e-628e-4a99-bb01-6127faeeb899.png?type=w773" width=50%>
+<img src="https://user-images.githubusercontent.com/67196344/91316901-56a65800-e7f4-11ea-8105-1bafaf5ea52f.png" height=500px>
 
 ## Installation
     cd ~/MagicMirror/modules
