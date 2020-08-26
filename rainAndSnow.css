@@ -1,12 +1,12 @@
 @-webkit-keyframes fall{0%{top:-10%}100%{top:100%}}
 @keyframes fall{
       0%{top:-10%}100%{top:100%}
-      }  
+      }
 .snowflake{
   width: 40px;
   height: 40px;
   filter: invert(80%);
-  
+
   position:fixed;
   top:-10%;
   z-index:9999;
@@ -15,7 +15,7 @@
   -ms-user-select:none;
   user-select:none;
   cursor:default;
-  -webkit-animation-name:fall; 
+  -webkit-animation-name:fall;
   -webkit-animation-duration:10s;
   -webkit-animation-timing-function:linear,ease-in-out;
   -webkit-animation-iteration-count:infinite,infinite;
@@ -26,53 +26,55 @@
   animation-iteration-count:infinite,infinite;
   animation-play-state:running,running
   }
-  .rain{
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  
-  position:fixed;
-  top:-10%;
-  z-index:9999;
-  -webkit-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  user-select:none;
-  cursor:default;
-  -webkit-animation-name:fall; 
-  -webkit-animation-duration:5s;
-  -webkit-animation-timing-function:linear,ease-in-out;
-  -webkit-animation-iteration-count:infinite,infinite;
-  -webkit-animation-play-state:running,running;
-  animation-name:fall;
-  animation-duration:5s;
-  animation-timing-function:linear,ease-in-out;
-  animation-iteration-count:infinite,infinite;
-  animation-play-state:running,running
-  }
+  .raining{
+      width: 40px;
+    height: 40px;
+    filter: invert(80%);
+
+    position:fixed;
+    top:-10%;
+    z-index:9999;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    cursor:default;
+    -webkit-animation-name:fall;
+    -webkit-animation-duration:5s;
+    -webkit-animation-timing-function:linear,ease-in-out;
+    -webkit-animation-iteration-count:infinite,infinite;
+    -webkit-animation-play-state:running,running;
+    animation-name:fall;
+    animation-duration:5s;
+    animation-timing-function:linear,ease-in-out;
+    animation-iteration-count:infinite,infinite;
+    animation-play-state:running,running
+    }
   .drizzle{
-  color: white;
-  font-size: 25px;
-  
-  position:fixed;
-  top:-10%;
-  z-index:9999;
-  -webkit-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  user-select:none;
-  cursor:default;
-  -webkit-animation-name:fall; 
-  -webkit-animation-duration:5s;
-  -webkit-animation-timing-function:linear,ease-in-out;
-  -webkit-animation-iteration-count:infinite,infinite;
-  -webkit-animation-play-state:running,running;
-  animation-name:fall;
-  animation-duration:5s;
-  animation-timing-function:linear,ease-in-out;
-  animation-iteration-count:infinite,infinite;
-  animation-play-state:running,running
-  }
+      width: 20px;
+      height: 20px;
+      filter: invert(80%);
+
+
+    position:fixed;
+    top:-10%;
+    z-index:9999;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    cursor:default;
+    -webkit-animation-name:fall;
+    -webkit-animation-duration:5s;
+    -webkit-animation-timing-function:linear,ease-in-out;
+    -webkit-animation-iteration-count:infinite,infinite;
+    -webkit-animation-play-state:running,running;
+    animation-name:fall;
+    animation-duration:5s;
+    animation-timing-function:linear,ease-in-out;
+    animation-iteration-count:infinite,infinite;
+    animation-play-state:running,running
+    }
   .show:nth-of-type(0){
   left:1%;
   -webkit-animation-delay:0s,0s;

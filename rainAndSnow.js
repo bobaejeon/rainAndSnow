@@ -17,19 +17,19 @@ Module.register("rainAndSnow",{
 	getStyles: function() {
 		return ["rainAndSnow.css"];
 	},
-	
+
 	// No translations
 	getTranslations: function() {
 		return false;
 	},
-	
+
 	// Define start sequence.
 	  start: function() {
 	    Log.info("Starting module: " + this.name);
-	
+
 	    // Set locale.
 	    moment.locale(config.language);
-	
+
 	    this.type = null;
 		this.icon = null;
 		this.loaded = false;
@@ -37,7 +37,7 @@ Module.register("rainAndSnow",{
 		this.retryDelay = 2500;
 		this.scheduleUpdate(this.initialDelay);
 	  },
-  
+
 	getDom: function(){
 		var wrapper = document.createElement("div");
 	    if (this.config.apikey === "") {
@@ -45,30 +45,30 @@ Module.register("rainAndSnow",{
 	      wrapper.className = "dimmed light small";
 	      return wrapper;
 	    }
-	
+
 	    if (!this.loaded) {
 	      wrapper.innerHTML = "LOADING";
 	      wrapper.className = "dimmed light small";
 	      return wrapper;
 	    }
-	    console.log(this.type.toLowerCase());
+			var className;
 	    if(this.type === "Rain" || this.type === "Drizzle"){
-			wrapper.className = this.type.toLowerCase();
-			this.icon = "/";
-			for(var i=0;i<10;i++){
-					wrapper.innerHTML += "<div class ='show " + wrapper.className + "'>"+this.icon+"</div>";
-				}
+			className = (this.type === "Rain" ? "raining" : "drizzle");
+			this.icon = "./modules/rainAndSnow/icons/drop.png"
 		}
 		else if(this.type === "Snow"){
-			wrapper.className = "snow";
-				this.icon = "./modules/rainAndSnow/snowflakes/snowflake.png";
-				for(var i=0;i<10;i++){
-					wrapper.innerHTML += "<img class ='show snowflake' src='"+this.icon+"'>";
-				}
+			className = "snowflake";
+			this.icon = "./modules/rainAndSnow/icons/snowflake.png";
+		}
+		else{
+			return;
+		}
+		for(var i=0;i<10;i++){
+				wrapper.innerHTML += "<img class ='show "+className+"' src='"+this.icon+"'>";
 		}
 		return wrapper;
 	},
-	
+
 	updateWeather: function(){
 		if (this.config.apiKey === "") {
 			Log.error("RainAndSnow: Please set APIKEY");
